@@ -42,8 +42,10 @@ public class AspiceAssementTool implements ToolCallbacks {
         {
             if(args[i].equals("--new"))
             {
-                if(i+1<args.length)
+                if(i+1<args.length) 
+                {
                     newProject(new File(args[i+1]));
+                }
             }
         }
         
@@ -370,6 +372,7 @@ All distribution of derivative works shall be made at no cost to the recipient.
 
             p=l.addProcess("SWE.4");
             p.addPractice("SWE.4.BP1", "Develop software unit verification strategy including regression strategy");
+            
             p.addPractice("SWE.4.BP2", "Develop criteria for unit verification");
             p.addPractice("SWE.4.BP3", "Perform static verification of software units");
             p.addPractice("SWE.4.BP4", "Test software units");

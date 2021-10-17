@@ -159,8 +159,8 @@ public class AspiceAssementToolMainWindow {
         JList questionList = new JList();
         questionairePane.setViewportView(questionList);
         
-        JScrollPane ReportPane = new JScrollPane();
-        tabbedPane.addTab("Report", null, ReportPane, null);
+        JScrollPane reportPane = new JScrollPane();
+        tabbedPane.addTab("Report", null, reportPane, null);
     }
 
     public void show() {

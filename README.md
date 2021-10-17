@@ -2,9 +2,9 @@
 
 ## Introduction
 
-This tool is based on the PAM (http://www.automotivespice.com/fileadmin/software-download/AutomotiveSPICE_PAM_31.pdf) and shall aid an ASPICE Assesor to perform his Assesment. The Questions and statements present in this tool are not authorative and it is the responsibility of the assesor to change them as needed and he sees fit. There is no warantee that the questions or processes are complete.
+This tool is based on the PAM (http://www.automotivespice.com/fileadmin/software-download/AutomotiveSPICE_PAM_31.pdf) and shall aid an ASPICE Assesor to perform her  or his Assesment. The Questions and statements present in this tool are not authorative and it is the responsibility of the assesor to change them as needed and he sees fit. There is no warantee that the questions or processes are complete.
 
-Note the Tool avoids to descope Questions (N/A shall not be used), but one can Descope a Process from the questionaire presented to a team. A Process not assessed shall be show as not rated.
+Note the Tool avoids to descope Questions (N/A shall not be used), but one can descope a Process from the questionaire presented to a team. A Process not assessed shall be shown as not rated.
 
 The Team setup, questions and results are stored in plain files in a git repository. The idea is that each project can maintain it's git repository and several assesors can work in parallel. 
 

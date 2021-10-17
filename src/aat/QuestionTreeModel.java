@@ -29,11 +29,11 @@ public class QuestionTreeModel implements TreeModel {
         
     }
     class Question extends Node {
-        String ID;
+        String id;
         String text;
         int weight;
         public Question(String id2, String text2) {
-            ID=id2;
+            id=id2;
             text=text2;
                    
         }
@@ -51,20 +51,20 @@ public class QuestionTreeModel implements TreeModel {
         }
         public String toString()
         {
-            return ID+" "+text;
+            return id+" "+text;
         }
      
         
         
     }
     class Practice extends  Node {
-        String ID;
+        String id;
         String name;
         
         List<Question> questions;
 
         public Practice(String id2, String text) {
-            ID=id2;
+            id=id2;
             name=text;
             questions= new LinkedList<Question>();
         }
@@ -94,7 +94,7 @@ public class QuestionTreeModel implements TreeModel {
         }
         public String toString()
         {
-            return ID+" "+name;
+            return id+" "+name;
         }
 
       
